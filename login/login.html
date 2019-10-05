@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="../project.css">
+	<link rel="stylesheet" type="text/css" href="../register/register.css">
+	<link rel="icon" type="image/ico" href="../icon/icon.ico">
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+	<nav name="main_nav" id="main_nav">
+		<a href="../project.html">
+			<img src="../logo/Untitled-1.png" id="drosak_logo" alt="Drosak" width="200px" height="100px" class="buttons">
+		</a>
+		<input  id="header-search-field" name="q" maxlength="200" placeholder="                                             What do you want to learn ?" value="">
+		<img src="../cart/cart.png" id="cart_logo" alt="cart" width="140px" height="90px;" class="buttons">
+		<a href="login/login.html"><button id="login_button">Log In</button></a>
+		<a href="../register/register.html"><button id="register_button">Register</button></a>
+	</nav>
+	<div id="register_div" style="margin-top: 100px;">
+		<span id="register_span">Log In</span>
+		<hr style="width: 25%; margin-right:460px;">
+		<div id="info">
+			<form name="inputForm">
+				<label>Email</label> <input maxlength="200" name="email" type="text" style="margin-left: 112px;"><label id="demo" style="color: red;"></label>
+				<br><br>
+				<label>Password</label> <input maxlength="200" name="pass" type="Password" style="margin-left: 90px;"><label id="demo2" style="color: red;"></label>
+				<br><br>
+				<button type="button" onclick="notempty()" style="margin-left: 170px;">Log In</button>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div id="footer1">Copyright © 2019 Drosak, Inc.
+			<a href="../aboutus.html" style="margin-left: 1100px; font-size: 14px;">About Us</a>
+		</div>
+	</footer>
+</body>
+</html>

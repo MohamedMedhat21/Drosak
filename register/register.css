@@ -1,0 +1,27 @@
+input
+{
+	width: 200px;
+}
+#register_div
+{
+	border: 4px solid #f2f3f6;
+	border-radius: 5px;
+	width: 75%;
+	margin-left: 200px;
+	margin-top: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 180px;
+}
+#register_span
+{
+	margin: 45%;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: normal;
+}
+#info
+{
+	margin-top: 20px;
+	margin-left: 340px;
+}
